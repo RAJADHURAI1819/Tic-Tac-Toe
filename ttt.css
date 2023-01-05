@@ -1,0 +1,54 @@
+.navbar{
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content:center;
+    background-color:rgb(14, 188, 236) ;
+    padding:15px;
+}
+.logo{
+    display:flex;
+    align-items: center;
+    gap:30px;
+}
+.header{
+    text-align: center;
+}
+h4{
+    color:bisque;
+}
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+}
+.links{
+    text-decoration: none;
+     color:black;
+ } 
+.xo {
+    border: 1px solid yellow;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+.X{
+color:azure;
+}
+.O{
+    color:chartreuse;
+}
+button{
+    background-color: yellow;
+    height:35px;
+    width:150px;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bold;
+}
